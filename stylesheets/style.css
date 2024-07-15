@@ -1,0 +1,33 @@
+.navbar
+{
+    position: fixed !important;
+    margin-left: -30px !important;
+}
+
+.navbar button
+{
+    all: unset;
+}
+
+.navbar-toggler-icon
+{
+    height: 44px !important;
+    width: 44px !important;
+}
+
+.navbar ul
+{
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.navbar li
+{
+    padding-bottom: 20px;
+}
+
+.navbar-collapse
+{
+    padding-top: 20px;
+}
