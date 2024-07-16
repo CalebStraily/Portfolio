@@ -62,7 +62,32 @@
     padding-top: 20px;
 }
 
-.project-highlights button
+.download-button button
+{
+    background: linear-gradient(#070707, #524e61);
+    color: white;
+    border-radius: 10px;
+    border-width: 0;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.pdf-viewer
+{
+    padding-top: 20px;
+    width: 100%;
+    height: 475px;
+}
+
+.back-button
+{
+    padding-top: 20px;
+}
+
+.back-button button
 {
     background: linear-gradient(#070707, #524e61);
     color: white;
