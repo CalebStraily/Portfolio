@@ -47,25 +47,30 @@
     font-size: 20px;
 }
 
-.header-title
+.project-screenshots img
+{
+    padding-top: 20px;
+}
+
+.project-highlights
 {
     padding-top: 40px;
-    font-size: 20px;
 }
 
-.project-list a
+.highlights-button-row
 {
-    all: unset;
-    text-decoration: underline;
+    padding-top: 20px;
 }
 
-.project-list p
+.project-highlights button
 {
-    padding-top: 10px;
+    background: linear-gradient(#070707, #524e61);
+    color: white;
+    border-radius: 10px;
+    border-width: 0;
+    padding: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 25px;
+    font-weight: 500;
 }
-
-.project-preview
-{
-    padding-top: 50px;
-}
-
