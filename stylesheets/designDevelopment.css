@@ -59,14 +59,35 @@
     color: white;
 }
 
+.desktop-navbar
+{
+    padding-top: 20px;
+}
+
+.desktop-navbar ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+.desktop-navbar a
+{
+    all: unset;
+}
+
+.desktop-navbar li
+{
+    margin-left: 40px;
+}
+
 .header-title
 {
-    padding-top: 120px;
+    padding-top: 20px;
 }
 
 .header-title b
 {
-    padding-top: 40px;
     font-size: 20px;
 }
 
@@ -76,12 +97,15 @@
     text-decoration: underline;
 }
 
-.project-list p
+@media (min-width: 1200px)
 {
-    padding-top: 10px;
-}
+    .header-title
+    {
+        padding-top: 0;
+    }
 
-.project-preview
-{
-    padding-top: 50px;
+    .header-title b
+    {
+        font-size: 25px;
+    }
 }

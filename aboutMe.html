@@ -15,7 +15,7 @@
 <body class="pb-3">
     <div class="container-fluid header">
         <div class="row">
-            <div class="col-4">
+            <div class="col-4 d-xl-none">
                 <nav class="navbar navbar-dark bg-dark"> 
                         <button class="navbar-toggler"
                                 type="button" data-bs-toggle="collapse"
@@ -40,14 +40,38 @@
                         </div> 
                 </nav> 
             </div>
-            <div class="col-12 nav-name">
+            <div class="col-12 nav-name d-xl-none">
                 <b>Caleb Straily</b>
             </div>
         </div>
     </div>
 
+    <div class="container-fluid desktop-navbar">
+        <div class="row">
+            <div class="col-6">
+                <h4>Caleb Straily</h4>
+            </div>
+            <div class="col-6">
+                <ul>
+                    <li>
+                        <a href="aboutMe.html">About Me</a>
+                    </li>
+                    <li>
+                        <a href="designDevelopment.html">Design/Development</a>
+                    </li>
+                    <li>
+                        <a href="resume.html">Resume</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <div class="container-fluid">
-        <div class="row social-links text-center">
+        <div class="row social-links">
             <div class="col-12">
                 <a href="https://www.linkedin.com/in/caleb-straily/"><img src="./stylesheets/media/linkedin-icon.png" alt=""></a>
                 <a href="mailto:calebstraily01@gmail.com"><img src="./stylesheets/media/gmail-icon.png" alt=""></a>
@@ -58,12 +82,9 @@
 
     <div class="container-fluid bio-overview">
         <div class="row">
-            <div class="col-12 text-center">
+            <div class="col-2 d-none d-xl-block"></div>
+            <div class="col-12 col-xl-4 text-center">
                 <h1>Caleb Straily</h1>
-            </div>
-        </div>
-        <div class="row text-center">
-            <div class="col-12">
                 <p>
                     <h2>
                         Software Developer / <br />
@@ -71,11 +92,10 @@
                     </h2>
                 </p>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
+            <div class="col-12 col-xl-4 text-center">
                 <img class="img-fluid" src="./stylesheets/media/BioFillerImage.jpg" alt="">
             </div>
+            <div class="col-2 d-none d-xl-block"></div>
         </div>
     </div>
 
@@ -86,7 +106,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12">
+            <div class="col-2 d-none d-xl-block"></div>
+            <div class="col-12 col-xl-8">
                 <p>
                     Front-end and back-end software developer since 
                     2018. I went to Itawamba Community College (2018-
@@ -109,6 +130,7 @@
                     design in video games.
                 </p>
             </div>
+            <div class="col-2 d-none d-xl-block"></div>
         </div>
     </div>
 </body>

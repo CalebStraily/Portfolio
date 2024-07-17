@@ -59,9 +59,31 @@
     color: white;
 }
 
+.desktop-navbar
+{
+    padding-top: 20px;
+}
+
+.desktop-navbar ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+.desktop-navbar a
+{
+    all: unset;
+}
+
+.desktop-navbar li
+{
+    margin-left: 40px;
+}
+
 .social-links
 {
-    padding-top: 80px;
+    text-align: center;
 }
 
 .social-links img
@@ -74,4 +96,31 @@
 .bio-overview
 {
     padding-top: 20px;
+}
+
+@media (min-width: 1200px)
+{   
+    .social-links
+    {
+        padding-top: 0;
+        padding-right: 150px;
+        text-align: right;
+    }
+
+    .bio-overview h1
+    {
+        font-size: 80px;
+    }
+
+    .bio-overview h2
+    {
+        padding-top: 20px;
+        font-size: 45px;
+    }
+    
+    .bio-overview img
+    {
+        height: auto;
+        width: 300px;
+    }
 }
