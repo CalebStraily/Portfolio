@@ -5,12 +5,10 @@
     margin-left: -31px;
     padding-right: 100% !important;
     padding-left: 40px !important;
-    padding-bottom: 20px !important;
 }
 
 .navbar-toggler-icon
 {
-    margin-top: 20px !important;
     height: 44px !important;
     width: 44px !important;
 }
@@ -34,7 +32,6 @@
 
 .navbar-collapse
 {
-    background-color: #353a40 !important;
     padding-top: 20px;
     color: white;
 }
@@ -42,13 +39,24 @@
 .nav-name
 {
     position: fixed !important;
-    padding-bottom: 20px;
     margin-top: 20px;
-    margin-left: 90px;
+    margin-left: 100px;
     z-index: 2 !important;
     background-color: #353a40;
     color: white;
     font-size: 20px;
+}
+
+.navbar li
+{
+    padding-bottom: 20px;
+}
+
+.navbar-collapse
+{
+    padding-top: 20px;
+    background-color: #353a40 !important;
+    color: white;
 }
 
 .social-links
