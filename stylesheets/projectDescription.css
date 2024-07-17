@@ -1,14 +1,10 @@
 .navbar
 {
     position: fixed !important;
-    margin-left: -30px !important;
     z-index: 1 !important;
-    margin-top: -10px;
-}
-
-.navbar button
-{
-    all: unset;
+    margin-left: -31px;
+    padding-right: 100% !important;
+    padding-left: 40px !important;
 }
 
 .navbar-toggler-icon
@@ -37,14 +33,24 @@
 .navbar-collapse
 {
     padding-top: 20px;
-    background-color: rgba(44, 44, 49, 0.815);
     color: white;
 }
 
 .nav-name
 {
-    padding-top: 10px;
+    position: fixed !important;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    z-index: 2 !important;
+    background-color: #353a40;
+    color: white;
     font-size: 20px;
+}
+
+.project-overview
+{
+    padding-top: 80px;
 }
 
 .project-screenshots img
