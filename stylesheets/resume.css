@@ -47,6 +47,11 @@
     font-size: 20px;
 }
 
+.nav-name a
+{
+    all: unset;
+}
+
 .navbar li
 {
     padding-bottom: 20px;
@@ -59,9 +64,26 @@
     color: white;
 }
 
+.desktop-navbar ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+.desktop-navbar a
+{
+    all: unset;
+}
+
+.desktop-navbar li
+{
+    margin-left: 40px;
+}
+
 .header-name
 {
-    padding-top: 100px;
+    padding-top: 20px;
     font-size: 30px;
 }
 
@@ -85,5 +107,31 @@
 .pdf-viewer
 {
     width: 100%;
-    height: 975px;
+    height: 1100px;
+}
+
+.back-button
+{
+    padding-top: 20px;
+}
+
+.back-button button
+{
+    background: linear-gradient(#070707, #524e61);
+    color: white;
+    border-radius: 10px;
+    border-width: 0;
+    padding: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+@media (min-width: 1200px)
+{
+    .resume-desktop-navbar
+    {
+        padding-top: 20px;
+    }
 }

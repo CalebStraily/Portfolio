@@ -48,9 +48,31 @@
     font-size: 20px;
 }
 
+.nav-name a
+{
+    all: unset;
+}
+
+.desktop-navbar ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+.desktop-navbar a
+{
+    all: unset;
+}
+
+.desktop-navbar li
+{
+    margin-left: 40px;
+}
+
 .social-links img
 {
-    padding-top: 20px;
+    padding-top: 30px;
     height: auto;
     width: 40px;
 }
@@ -64,4 +86,37 @@
 .google-form-embed
 {
     padding-top: 40px;
+}
+
+.back-button
+{
+    padding-top: 20px;
+}
+
+.back-button button
+{
+    background: linear-gradient(#070707, #524e61);
+    color: white;
+    border-radius: 10px;
+    border-width: 0;
+    padding: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+@media (min-width: 1200px)
+{
+    
+    .contact-desktop-navbar
+    {
+        padding-top: 20px;
+    }
+
+    .google-form-embed iframe
+    {
+        width: 40%;
+        height: 690px;
+    }
 }

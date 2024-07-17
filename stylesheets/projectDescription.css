@@ -48,9 +48,31 @@
     font-size: 20px;
 }
 
-.project-overview
+.nav-name a
 {
-    padding-top: 80px;
+    all: unset;
+}
+
+.desktop-navbar
+{
+    padding-top: 20px;
+}
+
+.desktop-navbar ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+.desktop-navbar a
+{
+    all: unset;
+}
+
+.desktop-navbar li
+{
+    margin-left: 40px;
 }
 
 .project-screenshots img
@@ -108,15 +130,26 @@
 
 @media (min-width: 1200px)
 {
-    .screenshotThreeContainer
+    .kiosk-screenshot-container
     {
         padding-top: 5%;
     }
 
-    .screenshotThreeImg
+    .nba-third-screenshot
+    {
+        display: inline-flex;
+
+    }
+
+    .kiosk-screenshot-container
     {
         width: 100% !important;
         height: auto !important;
+    }
+
+    .project-overview
+    {
+        padding-top: 0px;
     }
 
     .pdf-viewer

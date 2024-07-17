@@ -47,6 +47,11 @@
     font-size: 20px;
 }
 
+.nav-name a
+{
+    all: unset;
+}
+
 .navbar li
 {
     padding-bottom: 20px;
@@ -107,9 +112,12 @@
         text-align: right;
     }
 
+
+
     .bio-overview h1
     {
-        font-size: 80px;
+        padding-top: 30px;
+        font-size: 60px;
     }
 
     .bio-overview h2
@@ -122,5 +130,16 @@
     {
         height: auto;
         width: 300px;
+    }
+
+    .bio-description
+    {
+        padding-top: 20px;
+    }
+
+    .bio-description p
+    {
+        padding-top: 20px;
+        font-size: 20px;
     }
 }
