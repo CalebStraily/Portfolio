@@ -80,9 +80,15 @@
     padding-top: 20px;
 }
 
-.project-highlights
+.youtube-video-player
 {
     padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.video-title
+{
+    padding-bottom: 20px;
 }
 
 .highlights-button-row
