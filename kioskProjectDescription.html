@@ -45,29 +45,31 @@
         </div>
     </div>
 
-    <div class="container-fluid desktop-navbar">
-        <div class="row">
-            <div class="col-6">
-                <a href="index.html"><h4>Caleb Straily</h4></a>
-            </div>
-            <div class="col-6">
-                <ul>
-                    <li>
-                        <a href="index.html">About Me</a>
-                    </li>
-                    <li>
-                        <a href="designDevelopment.html">Design/Development</a>
-                    </li>
-                    <li>
-                        <a href="resume.html">Resume</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
+    <header>
+        <div class="container-fluid desktop-navbar">
+            <div class="row">
+                <div class="col-6 d-none d-xl-block d-xxl-none">
+                    <a href="index.html"><h4>Caleb Straily</h4></a>
+                </div>
+                <div class="col-6 d-none d-xl-block d-xxl-none">
+                    <ul>
+                        <li>
+                            <a href="index.html">About Me</a>
+                        </li>
+                        <li>
+                            <a href="designDevelopment.html">Design/Development</a>
+                        </li>
+                        <li>
+                            <a href="resume.html">Resume</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
+    </header>
 
     <div class="container-fluid project-overview text-center">
         <div class="row">
@@ -176,4 +178,21 @@
         </div>
     </div>
 </body>
+
+<script>
+    document.addEventListener('scroll' , () => 
+    {
+        const header = document.querySelector('header');
+
+        if (window.scrollY > 0)
+        {
+            header.classList.add('scrolled');
+        }
+        else
+        {
+            header.classList.remove('scrolled');
+        }
+    })
+</script>
+
 </html>

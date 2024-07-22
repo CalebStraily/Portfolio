@@ -64,6 +64,11 @@
     color: white;
 }
 
+.desktop-navbar
+{
+    padding-top: 20px;
+}
+
 .desktop-navbar ul
 {
     list-style-type: none;
@@ -83,7 +88,7 @@
 
 .header-name
 {
-    padding-top: 20px;
+    padding-top: 60px;
     font-size: 30px;
 }
 
@@ -130,6 +135,27 @@
 
 @media (min-width: 1200px)
 {
+    .header-name
+    {
+        padding-top: 20px;
+    }
+    
+    header
+    {
+        height: 5em;
+        position: sticky;
+        top: 0;
+        transition: background-color 0.4s ease-in-out;
+    }
+
+    header.scrolled
+    {
+        color: white;
+        background-color: #212121;
+        opacity: 0.95;
+        z-index: 1;
+    }
+
     .resume-desktop-navbar
     {
         padding-top: 20px;

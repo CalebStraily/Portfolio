@@ -68,11 +68,17 @@
 .desktop-navbar a
 {
     all: unset;
+    transition: color 0.4s ease-in-out;
 }
 
 .desktop-navbar li
 {
     margin-left: 40px;
+}
+
+.project-overview
+{
+    padding-top: 60px;
 }
 
 .project-screenshots img
@@ -136,6 +142,22 @@
 
 @media (min-width: 1200px)
 {
+    header
+    {
+        height: 5em;
+        position: sticky;
+        top: 0;
+        transition: background-color 0.4s ease-in-out;
+    }
+
+    header.scrolled
+    {
+        color: white;
+        background-color: #212121;
+        opacity: 0.95;
+        z-index: 1;
+    }
+
     .kiosk-screenshot-container
     {
         padding-top: 5%;
