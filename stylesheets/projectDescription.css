@@ -171,19 +171,31 @@
 
     .kiosk-screenshot-container
     {
-        padding-top: 5%;
+        padding-top: 8%;
     }
 
-    .nba-third-screenshot
+    .kiosk-screenshot-container img
     {
-        display: inline-flex;
+        height: auto;
+        width: 100%;
+    }
 
+    .nba-screenshot-container
+    {
+        height: auto;
+        width: 55%;
     }
 
     .kiosk-screenshot-container
     {
         width: 100% !important;
         height: auto !important;
+    }
+
+    .ticTacToe-screenshot-container
+    {
+        width: 73%;
+        height: auto;
     }
 
     .project-overview
