@@ -1,3 +1,8 @@
+body
+{
+    background-color: #ebeaea !important;
+}
+
 .navbar
 {
     position: fixed !important;
@@ -67,6 +72,8 @@
 .desktop-navbar
 {
     padding-top: 20px;
+    background-color: #212121ea;
+    color: white;
 }
 
 .desktop-navbar ul

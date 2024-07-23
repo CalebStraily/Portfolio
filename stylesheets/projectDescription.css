@@ -1,3 +1,8 @@
+body
+{
+    background-color: #ebeaea !important;
+}
+
 .navbar
 {
     position: fixed !important;
@@ -145,7 +150,6 @@
 {
     header
     {
-        height: 5em;
         position: sticky;
         top: 0;
         transition: background-color 0.4s ease-in-out;
