@@ -72,8 +72,6 @@ body
 .desktop-navbar
 {
     padding-top: 20px;
-    background-color: #212121ea;
-    color: white;
 }
 
 .desktop-navbar ul
@@ -112,6 +110,21 @@ body
 
 @media (min-width: 1200px)
 {   
+    header
+    {
+        position: sticky;
+        top: 0;
+        transition: background-color 0.4s ease-in-out;
+    }
+
+    header.scrolled
+    {
+        color: white;
+        background-color: #212121;
+        opacity: 0.95;
+        z-index: 1;
+    }
+
     .social-links
     {
         text-align: right;
