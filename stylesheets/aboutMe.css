@@ -108,6 +108,17 @@ body
     padding-top: 20px;
 }
 
+.bio-overview img
+{
+    height: auto;
+    width: 460px
+}
+
+.bio-description
+    {
+        padding-top: 20px;
+    }
+
 @media (min-width: 1200px)
 {   
     header
@@ -141,16 +152,10 @@ body
         padding-top: 20px;
         font-size: 60px;
     }
-    
-    .bio-overview img
-    {
-        height: auto;
-        width: 300px;
-    }
 
-    .bio-description
+    .bio-overview p
     {
-        padding-top: 20px;
+        padding-top: 10%;
     }
 
     .bio-description p
